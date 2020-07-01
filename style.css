@@ -20,13 +20,11 @@ body {
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
     padding-bottom: 150px;
+    height: 500px;
+    float: left;
 }
 
-.header-area::after {
-    content: "";
-    display: block;
-    clear: both;
-}
+
 
 .text-highlight {
     color: orange;
@@ -66,19 +64,16 @@ body {
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    height: 500px;
 }
 
-.dream-area::after {
-    content: "";
-    display: block;
-    clear: both;
-}
+
 
 .experience-area {
-    overflow: hidden;
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    height: 500px;
 }
 
 .experience-area>h2 {
