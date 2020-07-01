@@ -4,32 +4,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.half-width h1 {
-    font-size: 50px;
-}
-
-.half-width h2 {
-    font-size: 45px;
-}
-
-.half-width p {
-    color: dimgray;
-}
-
-.header-area {
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
-    padding-bottom: 150px;
-    height: 500px;
-    float: left;
-}
-
-
-
-.text-highlight {
-    color: orange;
-}
-
 .half-width {
     width: 40%;
     float: left;
@@ -37,82 +11,88 @@ body {
     padding-left: 2%;
 }
 
+.half-width h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
 
-
-.half-width h1,
 .half-width h2,
+.experience-area>h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
 .half-width h3 {
     text-transform: capitalize;
+}
+
+.half-width p {
+    color: dimgray;
+}
+
+.text-highlight {
+    color: orange;
 }
 
 .half-width img {
     width: 100%;
 }
 
+.header-area {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
 .half-width .link-button {
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
-    text-transform: uppercase;
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
-    font-weight: 700;
+    font-weight: 600;
+    text-transform: uppercase;
 }
-
 
 .dream-area {
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
-    height: 500px;
 }
-
-
 
 .experience-area {
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-    height: 500px;
-}
-
-.experience-area>h2 {
-    text-transform: capitalize;
-    font-size: 45px;
 }
 
 .single-experience {
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 400px;
+    height: 80%;
     background-color: white;
 }
 
 #full-stack {
-    border-left: 7px solid #F9725C;
+    border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
 }
 
-
 #baby-web {
-    border-left: 7px solid #F9725C;
+    border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
 
-
 footer p {
     text-align: center;
-    font-size: 14px;
+    color: dimgray;
 }
 
-footer p .text-highlight {
+footer .text-highlight {
     text-transform: capitalize;
 }
-
-
-
-
-
-
